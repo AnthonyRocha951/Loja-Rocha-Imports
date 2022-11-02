@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Glitch&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor0: #00e5fc;
+  --cor1: #006dfa;
+  --cor2: #0430d6;
+  --cor3: #0b07ed;
+  --cor4: #3904d6;
+  --cor5: #7900fa;
+
+  --font-padrao: "Arial";
+  --font-logo: "Rubik Glitch";
+  --font-destaque: "Bebas Neue";
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    var(--cor1),
+    var(--cor2),
+    var(--cor3),
+    var(--cor4)
+  );
+}
+
+header {
+  font-family: var(--font-padrao);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black;
+  align-items: center;
+  padding: 30px 50px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.685);
+  margin-bottom: 50px;
+}
+
+header h1 strong {
+  font-size: 50px;
+  color: var(--cor1);
+}
+
+header h1 {
+  font-family: var(--font-logo);
+  font-weight: normal;
+  font-size: 60px;
+}
+
+header nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius: 0px 10px 0px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.h1-principal {
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 0px 10px 0px 10px;
+  margin: 0px 38%;
+  color: var(--cor0);
+  font-family: var(--font-destaque);
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tenis1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.h1-tenis {
+  font-family: var(--font-destaque);
+  color: var(--cor0);
+  font-weight: normal;
+  font-size: 4em;
+}
+
+.p-tenis {
+  padding: 10px;
+  font-family: var(--font-destaque);
+  color: white;
+  font-size: 20px;
+  line-height: 1.1em;
+  text-indent: 20px;
+}
+
+.img-tenis {
+  width: 340px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.63);
+  transition: 1.5s ease-in-out;
+  overflow: hidden;
+}
+
+.img-tenis:hover {
+  width: 400px;
+  transform: scale(1) rotate(-360deg);
+}
+
+.botao-tenis {
+  font-family: var(--font-padrao);
+  padding: 5px 10px;
+  background-color: var(--cor4);
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+.tenis2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.tenis3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.tenis4 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.tenis5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.tenis6 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+/* botao */
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--cor3);
+  color: ghostwhite;
+}
+
+button span {
+  font-weight: normal;
+  font-family: var(--font-destaque);
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+}
+
+button:hover span {
+  color: rgb(255, 255, 255);
+}
+
+button::before,
+button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+button::before {
+  content: "";
+  background: black;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+/* botao */
