@@ -220,3 +220,133 @@ button:hover::before {
   transform: translate3d(100%, 0, 0);
 }
 /* botao */
+
+@media (max-width: 500px) {
+  header {
+    font-family: var(--font-padrao);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 30px 50px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.685);
+    margin-bottom: 50px;
+  }
+
+  header h1 {
+    font-family: var(--font-logo);
+    font-weight: normal;
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+
+  header nav a {
+    display: block;
+    margin-left: 140px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .h1-principal {
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 0px 10px 0px 10px;
+    margin: 8%;
+    color: var(--cor0);
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .tenis1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .tenis2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .tenis3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .tenis4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .tenis5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .tenis6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .h1-tenis {
+    font-family: var(--font-destaque);
+    color: var(--cor0);
+    text-align: center;
+    font-weight: normal;
+    font-size: 3em;
+  }
+
+  .p-tenis {
+    padding: 10px;
+    font-family: var(--font-destaque);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.1em;
+    text-indent: 20px;
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .img-tenis {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.63);
+    transition: 1.5s ease-in-out;
+    overflow: hidden;
+  }
+
+  .img-tenis:hover {
+    width: 320px;
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
