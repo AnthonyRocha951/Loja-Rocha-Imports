@@ -58,13 +58,15 @@ header nav a {
   color: white;
   font-weight: bolder;
   font-size: 15px;
+  transition: 0.5s;
 }
 
 header nav a:hover {
   background-color: rgba(255, 255, 255, 0.233);
   border-radius: 0px 10px 0px 10px;
   cursor: pointer;
-  transition: 0.3s;
+  font-size: 18px;
+  transform: scale(1);
 }
 
 .h1-principal {
@@ -86,11 +88,23 @@ header nav a:hover {
   margin-bottom: 100px;
 }
 
+.conteudo h1:hover {
+  font-size: 4.5em;
+  transform: scale(1);
+}
+
+.conteudo p:hover {
+  font-size: 22px;
+  transform: scale(1);
+}
+
 .h1-tenis {
   font-family: var(--font-destaque);
   color: var(--cor0);
   font-weight: normal;
   font-size: 4em;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .p-tenis {
@@ -100,19 +114,21 @@ header nav a:hover {
   font-size: 20px;
   line-height: 1.1em;
   text-indent: 20px;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .img-tenis {
   width: 340px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.63);
-  transition: 1.5s ease-in-out;
+  transition: 0.4s ease-in-out;
   overflow: hidden;
 }
 
 .img-tenis:hover {
-  width: 400px;
-  transform: scale(1) rotate(-360deg);
+  width: 370px;
+  transform: scale(1);
 }
 
 .botao-tenis {
