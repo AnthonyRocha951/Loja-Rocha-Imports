@@ -50,6 +50,7 @@ header h1 {
   font-family: var(--font-logo);
   font-weight: normal;
   font-size: 60px;
+  cursor: default;
 }
 
 header nav a {
@@ -91,11 +92,13 @@ header nav a:hover {
 .conteudo h1:hover {
   font-size: 4.5em;
   transform: scale(1);
+  cursor: default;
 }
 
 .conteudo p:hover {
   font-size: 22px;
   transform: scale(1);
+  cursor: default;
 }
 
 .h1-tenis {
@@ -356,13 +359,13 @@ button:hover::before {
     width: 300px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.63);
-    transition: 1.5s ease-in-out;
+    transition: 0.4s ease-in-out;
     overflow: hidden;
   }
 
   .img-tenis:hover {
     width: 320px;
-    transform: scale(1) rotate(-360deg);
+    transform: scale(1);
   }
 }
 
