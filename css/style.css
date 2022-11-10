@@ -71,9 +71,10 @@ header nav a:hover {
 }
 
 .h1-principal {
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.61);
   border-radius: 0px 10px 0px 10px;
-  margin: 0px 38%;
+  margin: 50px;
   color: var(--cor0);
   font-family: var(--font-destaque);
   font-weight: normal;
@@ -240,7 +241,7 @@ button:hover::before {
 }
 /* botao */
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   header {
     font-family: var(--font-padrao);
     display: flex;
@@ -250,7 +251,7 @@ button:hover::before {
     background-color: black;
     align-items: center;
     text-align: center;
-    padding: 30px 50px;
+    padding: 15px 5px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.685);
     margin-bottom: 50px;
   }
@@ -259,23 +260,15 @@ button:hover::before {
     font-family: var(--font-logo);
     font-weight: normal;
     font-size: 60px;
-    padding-bottom: 20px;
-  }
-
-  header nav a {
-    display: block;
-    margin-left: 130px;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    font-size: 15px;
+    padding: 0px 20px 20px 20px;
   }
 
   .h1-principal {
+    font-size: 25px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.61);
     border-radius: 0px 10px 0px 10px;
-    margin: 8%;
+    margin: 20%;
     color: var(--cor0);
     font-family: var(--font-destaque);
     font-weight: normal;
@@ -336,7 +329,13 @@ button:hover::before {
     color: var(--cor0);
     text-align: center;
     font-weight: normal;
-    font-size: 3em;
+    font-size: 40px;
+  }
+
+  .conteudo h1:hover {
+    font-size: 45px;
+    transform: scale(1);
+    cursor: default;
   }
 
   .p-tenis {
@@ -349,22 +348,28 @@ button:hover::before {
     text-indent: 20px;
   }
 
+  .conteudo p:hover {
+    font-size: 16px;
+    transform: scale(1);
+    cursor: default;
+  }
+
   button {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 30px;
   }
 
   .img-tenis {
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.63);
     transition: 0.4s ease-in-out;
-    overflow: hidden;
   }
 
   .img-tenis:hover {
-    width: 320px;
+    width: 300px;
     transform: scale(1);
   }
 }
