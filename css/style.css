@@ -75,7 +75,7 @@ header nav a:hover {
   background-color: rgba(0, 0, 0, 0.61);
   border-radius: 0px 10px 0px 10px;
   margin: 50px;
-  color: var(--cor0);
+  color: white;
   font-family: var(--font-destaque);
   font-weight: normal;
   text-align: center;
@@ -241,7 +241,7 @@ button:hover::before {
 }
 /* botao */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   header {
     font-family: var(--font-padrao);
     display: flex;
