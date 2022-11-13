@@ -244,13 +244,11 @@ button:hover::before {
 @media (max-width: 900px) {
   header {
     font-family: var(--font-padrao);
-    display: flex;
-    justify-content: space-between;
+    display: block;
     flex-wrap: wrap;
     color: white;
     background-color: black;
     align-items: center;
-    text-align: center;
     padding: 15px 5px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.685);
     margin-bottom: 50px;
@@ -260,6 +258,7 @@ button:hover::before {
     font-family: var(--font-logo);
     font-weight: normal;
     font-size: 60px;
+    text-align: center;
     padding: 0px 20px 20px 20px;
   }
 
