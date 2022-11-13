@@ -72,9 +72,10 @@ header nav a:hover {
 
 .h1-principal {
   padding: 10px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.61);
   border-radius: 0px 10px 0px 10px;
-  margin: 50px;
+  margin: auto;
   color: white;
   font-family: var(--font-destaque);
   font-weight: normal;
@@ -276,9 +277,10 @@ button:hover::before {
   .h1-principal {
     font-size: 25px;
     padding: 10px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.61);
     border-radius: 0px 10px 0px 10px;
-    margin: 20%;
+    margin: auto;
     color: white;
     font-family: var(--font-destaque);
     font-weight: normal;
