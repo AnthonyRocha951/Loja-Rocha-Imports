@@ -186,6 +186,25 @@ header nav a:hover {
   margin-bottom: 100px;
 }
 
+.sobre {
+  background-image: url('../img/06113347737001.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  background-attachment: fixed;
+  height: 80vh;
+  margin-bottom: 500px;
+}
+
+.sobre p {
+  position: relative;
+  top: 90px;
+  color: white;
+  font-family: var(--font-destaque);
+  font-size: 25px;
+  padding-left: 100px;
+}
+
 /* botao */
 button {
   outline: none;
