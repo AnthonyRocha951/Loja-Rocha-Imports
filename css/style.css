@@ -441,5 +441,33 @@ button:hover::before {
     width: 300px;
     transform: scale(1);
   }
+
+  .sobre {
+    background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left left;
+    background-attachment: fixed;
+    height: 90vh;
+    margin-bottom: 100px;
+  }
+  
+  .sobre p {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.158),rgba(255, 255, 255, 0.075),rgba(255, 255, 255, 0.007));
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: var(--cor6);
+    font-family: var(--font-destaque);
+    font-size: 20px;
+  }
+  
+  .sobre span {
+    font-size: 30px;
+    color: white;
+  }
 }
 
