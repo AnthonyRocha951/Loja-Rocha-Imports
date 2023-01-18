@@ -12,6 +12,7 @@
   --cor3: #0b07ed;
   --cor4: #3904d6;
   --cor5: #7900fa;
+  --cor6: #b2b2b2;
 
   --font-padrao: "Arial";
   --font-logo: "Rubik Glitch";
@@ -192,17 +193,54 @@ header nav a:hover {
   background-size: cover;
   background-position: left center;
   background-attachment: fixed;
-  height: 80vh;
-  margin-bottom: 500px;
+  height: 90vh;
+  margin-bottom: 100px;
 }
 
 .sobre p {
+  padding: 10px;
+  width: 450px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right,rgba(255, 255, 255, 0.158),rgba(255, 255, 255, 0.075),rgba(255, 255, 255, 0.007));
   position: relative;
-  top: 90px;
-  color: white;
+  top: 80px;
+  left: 50px;
+  color: var(--cor6);
   font-family: var(--font-destaque);
   font-size: 25px;
-  padding-left: 100px;
+}
+
+.sobre span {
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-destaque);
+  font-size: 18px;
+  transition: .5s;
+}
+
+footer a:hover {
+  color: var(--cor6);
+  font-size: 19px;
+  transform: scale(1);
+
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer section {
+  text-align: center;
+  padding: 50px;
 }
 
 /* botao */
